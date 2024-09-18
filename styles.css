@@ -1,0 +1,151 @@
+body {
+  background-image: url('images/background-image.jpg');
+  background-size: cover;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  color: beige;
+  padding: 20px 0;
+  text-align: center;
+  height: 60vh;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: beige;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  padding: 50px 0;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2em;
+}
+
+section {
+  padding: 50px;
+  max-width: 1000px;
+  margin: 0 auto;
+  color:beige;
+}
+
+p {
+  color: beige;
+  text-align: center;
+
+}
+
+#projects .project-list {
+  display: flex;
+  justify-content: center;
+  color: beige;
+
+}
+
+#projects .project {
+  color: ivory;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 81px rgba(213, 95, 11, 0.263);
+  width: 30%;
+  text-align: center;
+  background-image: url('images/background-image.jpg');
+}
+
+
+
+#contact p {
+  font-size: 1.2em;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: beige !important;
+  background-color: #ff84000f;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  text-decoration: none !important;
+
+}
+
+a:hover {
+  background-color: #b33000b9;
+}
+
+ h2 {
+
+  text-align: center;
+  padding: 20px 0;
+ }
+
+ h3 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+ }
+
+ .carousel-item {
+  color:rgb(255, 238, 2)
+ }
+
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(201, 193, 120, 0.395);
+ }
+
+ #CV {
+  text-align: center;
+
+ }
+
+ footer {
+  margin-top: auto; /* Pousse le footer vers le bas */
+  text-align: center; /* Centre le texte */
+  padding: 20px; /* Ajoute un peu d'espace */
+}
+
+.footer-links a {
+  margin: 0 10px; /* Espace entre les icônes */
+  color: beige; /* Couleur des icônes */
+  text-decoration: none; /* Enlève le soulignement */
+}
+
+.footer-copyright {
+  margin-top: 10px; /* Espace au-dessus du texte de copyright */
+}
+
+.photo-profil {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: auto;
+  box-shadow: 0 8px 81px rgba(199, 98, 39, 0.484);
+
+}
+
+.project-image {
+  width: 200px;
+
+}
