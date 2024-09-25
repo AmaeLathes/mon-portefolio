@@ -73,7 +73,7 @@ width: 150px;
   color: ivory;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 8px 81px rgba(213, 95, 11, 0.263);
+  box-shadow: 0 8px 81px rgba(169, 11, 213, 0.371);
   width: 50%;
   text-align: center;
   background-image: url('images/background-image.jpg');
@@ -115,12 +115,7 @@ a:hover {
 
  .carousel-item {
   color: rgb(241, 241, 154) !important;
-  background-color: rgba(14, 13, 10, 0.532);
- }
-
- .carousel-control-prev-icon, .carousel-control-next-icon {
-  background-color: rgba(41, 40, 30, 0.351);
-
+  background-color: rgba(133, 25, 228, 0.096);
  }
 
  #CV {
@@ -150,7 +145,7 @@ a:hover {
   height: 200px;
   display: block;
   margin: auto;
-  box-shadow: 0 8px 81px rgba(199, 98, 39, 0.484);
+  box-shadow: 0 8px 81px rgba(167, 39, 199, 0.296);
 
 }
 
